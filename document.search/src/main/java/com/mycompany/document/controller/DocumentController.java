@@ -40,7 +40,7 @@ public class DocumentController {
 	}
 
 	@GetMapping("/search")
-	public SearchDocumentResponse search(@RequestParam String query, @RequestParam String filter) {
+	public SearchDocumentResponse search(@RequestParam String query, @RequestParam(required = false) String filter) {
 		SearchDocumentRequest documentRequest = new SearchDocumentRequest();
 		documentRequest.setQuery(query);
 		if (filter != null && !filter.isEmpty()) {
