@@ -144,7 +144,7 @@ docker-compose up --build
 View logs:
 
 ```bash
-docker logs -f document-search
+docker logs -f <container ID>
 ```
 
 ---
