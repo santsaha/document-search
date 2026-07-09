@@ -24,8 +24,8 @@ The service currently uses an **in-memory repository** as the storage backend, a
 
 ## Technology Stack
 
-* Java 21
-* Spring Boot 3
+* Java 17
+* Spring Boot 4
 * Maven
 * Spring Web
 * Spring Validation
